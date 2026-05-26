@@ -1,0 +1,2 @@
+# Electricity-Market-Uplift-LMP-Analytics-Pipeline
+A PostgreSQL-based data pipeline that ingests, cleans and analyzes electricity market data, including Locational Marginal Pricing (LMP) and resource uplift payments. The project automates the full workflow from raw CSV ingestion to structured analysis, enabling insights into settlement locations, price trends and total uplift costs across the grid.

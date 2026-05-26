@@ -1,0 +1,7 @@
+--RESET DATABASE
+DROP SCHEMA IF EXISTS public CASCADE;
+CREATE SCHEMA public;
+
+SET TIME ZONE 'UTC';
+
+--.\run_all.bat

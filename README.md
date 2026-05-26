@@ -1,4 +1,4 @@
-# SQL Market Data Project
+```text # SQL Market Data Project
 
 This project loads, cleans, transforms, and analyzes market data using PostgreSQL.  
 All steps are automated through a shell script for easy re-running.
@@ -16,9 +16,9 @@ project/
 │   ├── 03_clean_transform.sql
 │   └── 04_analysis_queries.sql
 │
-├── raw/                  # Raw CSV source files (LMP, uplift, etc.)
-├── run_all.sh            # Runs all SQL scripts in order
-├── run_all.bat           # Bat File for Windows Users
+├── raw/              # Raw CSV source files (LMP, uplift, etc.)
+├── run_all.sh        # Runs all SQL scripts in order (Mac/Linux)
+├── run_all.bat       # Batch file for Windows users
 └── README.md
 
 # Setup
@@ -50,4 +50,4 @@ Output
 
 Analysis results are printed directly to the terminal.
 
-You can modify 04_analysis_queries.sql to add your own custom queries and analyses.
+You can modify 04_analysis_queries.sql to add your own custom queries and analyses. ```

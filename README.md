@@ -37,8 +37,8 @@ If needed, edit run_all.sh to use your PostgreSQL username and database name.
 
 From the project root directory:
 
-chmod +x run_all.sh   # Only needed once
-./run_all.sh
+chmod +x run_all.sh   # Only needed once and this may not be necessary
+./run_all.sh          # You may be able to simply run the "run_all" file itself without ever opening the terminal
 
 This executes the SQL files in the following order:
 
